@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitAny": false,
+      "sourceMap": false,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "target": "ES2016",
+      "lib": ["es2020", "DOM"]
+    },
+    "files": [
+        "index.ts",
+    ]
+  }

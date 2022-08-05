@@ -1,0 +1,22 @@
+{
+  "name": "harpie-backend-personal-proj",
+  "version": "1.0.0",
+  "description": "A personal project for selected interviewees.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harpieio/harpie-backend-personal-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harpieio/harpie-backend-personal-proj/issues"
+  },
+  "homepage": "https://github.com/Harpieio/harpie-backend-personal-proj#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
