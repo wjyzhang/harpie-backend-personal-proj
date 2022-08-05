@@ -3,11 +3,10 @@
 ## TASK: Write code that logs a live feed of these data insights from the Ethereum mempool (measure starting from the moment you start the program)
 * the address that's sending the most transactions
 * most common address that users send transactions to
-* most commonly used opcode
+* the hash of the most commonly used method (to find this, inspect `tx.data`)
 * the highest value sent in a single transaction
 * the average maxFeePerGas
 * the average maxPriorityFeePerGas
-* the median gasLimit
 
 ## INSTRUCTIONS:
 * `npm i`
@@ -25,8 +24,13 @@
 * you will probably have to look up some things; search around first, but send an email if you get stuck
 * you will be paid $59/hour for up to 8 hours, please make sure to log your time on a document
 
+## HINTS:
+* not every transaction will have a large `tx.data` field... some may just contain "0x"
+* not every transaction has the `maxPriorityFeePerGas` or `maxFeePerGas` field
+
 ## LINKS:
 * QuickNode: https://quicknode.com
 * ethers.js transactions spec: https://docs.ethers.io/v5/api/utils/transactions/
+* decoding Ethereum transaction call data: "https://towardsdatascience.com/decoding-ethereum-smart-contract-data-eed513a65f76"
 
 Good luck!
