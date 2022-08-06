@@ -3,7 +3,7 @@
 # TASK: Write code that logs a live feed of these data insights from the Ethereum mempool (measure starting from the moment you start the program)
 * the address that's sending the most transactions
 * most common address that users send transactions to
-* the hash of the most commonly used method (to find this, inspect `data`)
+* the hash of the most commonly used method (to find this, inspect the first four bytes of `data`)
 * the highest `value` sent in a single transaction
 * the average `maxFeePerGas`
 * the average `maxPriorityFeePerGas`
