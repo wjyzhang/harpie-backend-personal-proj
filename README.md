@@ -11,6 +11,7 @@
 ## INSTRUCTIONS:
 * `npm i`
 * run using the command `npm run start`
+* run unit tests `npm t`
 * create your own QuickNode account and source mempool data from there, the free plan should be fine
 * for your personal security, I'd advise putting your quicknode URL in a gitignored `.env` file
 

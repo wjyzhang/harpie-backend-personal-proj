@@ -1,14 +1,15 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "noImplicitAny": false,
-      "sourceMap": false,
-      "esModuleInterop": true,
-      "moduleResolution": "node",
-      "target": "ES2016",
-      "lib": ["es2020", "DOM"]
-    },
-    "files": [
-        "index.ts",
-    ]
-  }
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES2016",
+    "lib": ["es2020", "DOM"],
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
