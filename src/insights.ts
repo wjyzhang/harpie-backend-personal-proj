@@ -96,7 +96,7 @@ function calculateToAddressCount(addressMap, txInfo) {
 }
 
 function getFuncSigHash(input: string) {
-  return input.slice(2, 9);
+  return input.slice(2, 10);
 }
 
 function calculateFunctionSignatureHashCount(funcHashMap, hash) {

@@ -141,7 +141,7 @@ describe("mempool insights", () => {
       "0x8f3e83d908aAAea4D2351c3597B732a72841cEf7"
     );
     expect(mostFunctionHash.count).toEqual(8);
-    expect(mostFunctionHash.functionHash).toEqual("fb0f3ee");
+    expect(mostFunctionHash.functionHash).toEqual("fb0f3ee1");
     expect(highestValue).toEqual(BigNumber.from(81878));
     expect(maxFeePerGasStats.average).toEqual(
       BigNumber.from(36).div(BigNumber.from(8))
